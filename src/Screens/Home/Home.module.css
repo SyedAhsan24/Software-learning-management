@@ -57,6 +57,8 @@
 
 /* Header  */
 .header {
+  position: fixed;
+  width: 100%;
   grid-area: header;
   height: 60px;
   display: flex;
@@ -66,6 +68,7 @@
   box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
   background-color: #008000;
   color: white;
+  z-index: 999;
 }
 
 .bold {
@@ -133,6 +136,8 @@
   max-height: 580px;
   overflow-y: auto;
   background-color: rgba(15, 208, 15, 0.258);
+  padding-top: 50px;
+  position: fixed;
 }
 
 .sidebarListItem {
